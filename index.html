@@ -8,8 +8,9 @@
     <title>Document</title>
   </head>
   <body>
+    <!----Centering a container-->
     <div class="container">
-      <header class="main-header">
+      <header class="main-header clear-fix">
         <h1>📘The Code Magazine</h1>
 
         <nav>
@@ -21,17 +22,27 @@
         </nav>
       </header>
 
+      <!--ARTICLE-->
+
       <article>
         <header class="post-header">
-          <h2>
-            The basic language of the web:
-            <html></html>
-          </h2>
+          <h2>The basic language of the web: HTML</h2>
 
-          <img src="" alt="" health="50" width="50" />
+          <img src="img/laura-jones.jpg" alt="writer" height="50" width="50" />
+
+          <p>
+            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2023.
+          </p>
 
           <button>Like</button>
         </header>
+
+        <img
+          src="img/post-img.jpg"
+          alt="HTML code on the screen"
+          height="200"
+          width="500"
+        />
 
         <p>
           All modern websites and web applications are built using
@@ -64,9 +75,12 @@
         <p>
           You can lear more at
 
-          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-            >MDN Web Docs</a
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
           >
+            MDN Web Docs
+          </a>
         </p>
 
         <h3>Why should we learn more?</h3>
@@ -78,7 +92,7 @@
 
         <ul>
           <li class="first-li">
-            To be able to use the fundamental wev dev language
+            To be able to use the fundamental wev dev language.
           </li>
 
           <li>
@@ -93,8 +107,11 @@
         <p>Hopefully you learned something new here. See you next time!</p>
       </article>
 
+      <!--ASIDE-->
+
       <aside>
         <h4>Related posts</h4>
+        <br />
 
         <ul class="related">
           <li>
@@ -117,6 +134,7 @@
             <a href="#">The Unknown Powers of CSS</a>
             <p class="related-author">By Jim Dillon</p>
           </li>
+
           <li>
             <img
               src="img/related-3.jpg"
